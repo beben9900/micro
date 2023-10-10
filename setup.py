@@ -10,7 +10,7 @@ from setuptools import setup
 try:
     __version__ = version('glustercli')
 except PackageNotFoundError:
-    __version__ = "unknown"
+    __version__ = "0.8.6"
 
 setup(
     name='glustercli',
